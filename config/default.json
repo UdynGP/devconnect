@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://udayan123:udayan123@devconnect.hhkuz.mongodb.net/DevConnect?retryWrites=true&w=majority",
-  "jwtToken":"mysecrettoken"
+  "jwtToken":"mysecrettoken",
+  "githubClientId":"Iv1.d40d99b9e22b8843",
+  "githubSecret":"a00a90f929c6e6fb2dd18aa0d22fb99efa83888a"
 }
