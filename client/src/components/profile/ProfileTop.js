@@ -12,13 +12,15 @@ const ProfileTop = ({
   },
 }) => {
   return (
-    <div class='profile-top bg-primary p-2'>
+    <div class='profile-top bg-dark p-2'>
       <img class='round-img my-1' src={avatar} alt='' />
       <h1 class='large'>{name}</h1>
       <p class='lead'>
-        {status} {company && <span> at {company}</span>}
+        <h4>
+          {status} {company && <span> at {company}</span>}
+        </h4>
       </p>
-      <p>{location && <span>{location}</span>}</p>
+      <p class='lead'>{location && <span>{location}</span>}</p>
       <div class='icons my-1'>
         {website && (
           <a href={website} target='_blank' rel='noopener noreferrer'>

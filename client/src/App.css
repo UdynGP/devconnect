@@ -390,7 +390,7 @@ button {
 }
 
 .profile-top .icons a:hover {
-  color: var(--dark-color);
+  color: var(--primary-color);
 }
 
 .profile-about {
